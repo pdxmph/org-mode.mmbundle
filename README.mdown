@@ -2,10 +2,16 @@
 
 org-mode for mailmate can be used to append a org-mode file with a TODO + title and link to email and optionally contents of message or selection.
 
-Currently hardcoded to append to `~/Dropbox/notes/inbox.org`.
+# Patches
+
+- Currently hardcoded to append to `~/org/mail_inbox.org`.
+- Currently modified to add `(sender name)` to beginning of org heading 
+- Currently modified to add a `:mail:` tag to the org heading.  
 
 # Installation
+Place this in your `~/Library/Application Support/MailMate/Bundles` directory. 
 
+Edit the `org_inbox` variable at the top of `Support/bin/add` to change the destination file.
 
 # License
 
